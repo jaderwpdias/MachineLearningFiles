@@ -1,10 +1,24 @@
-# Exercício 1 — Regressão Linear e Múltipla com o Iris
+# Exercícios de Regressão Linear - Machine Learning
 
-Este projeto implementa regressão linear simples e múltipla no conjunto de dados Iris do scikit-learn, avaliando as métricas MAE, MSE, RMSE e R².
+Este projeto contém implementações de regressão linear simples e múltipla em diferentes datasets, avaliando métricas de performance e gerando análises visuais.
 
-## Objetivos
+## Exercícios Incluídos
 
-- Aplicar regressão linear simples e múltipla no dataset Iris
+### Exercício 1: Regressão Linear com Dataset Iris
+- **Dataset**: Iris (scikit-learn)
+- **Variável alvo**: `petal length (cm)`
+- **Features simples**: `sepal length (cm)`
+- **Features múltiplas**: `sepal length (cm)`, `sepal width (cm)`, `petal width (cm)`
+
+### Exercício 2: Regressão Linear com Dataset Diabetes
+- **Dataset**: Diabetes (scikit-learn)
+- **Variável alvo**: Progressão da doença
+- **Features simples**: `bmi` (índice de massa corporal)
+- **Features múltiplas**: `bmi`, `age`, `sex`
+
+## Objetivos dos Exercícios
+
+- Aplicar regressão linear simples e múltipla em diferentes datasets
 - Avaliar métricas de performance: MAE, MSE, RMSE e R²
 - Gerar gráficos de análise: Previsto vs Real, Resíduos vs Previsto, e Coeficientes
 - Comparar o desempenho entre regressão simples e múltipla
@@ -21,43 +35,70 @@ pip install -r requirements.txt
 
 ## Execução
 
-Execute o script principal:
-
+### Exercício 1 - Dataset Iris:
 ```bash
 python regressao_iris.py
 ```
 
+### Exercício 2 - Dataset Diabetes:
+```bash
+python regressao_diabetes.py
+```
+
 ## Estrutura do Projeto
 
-- `regressao_iris.py`: Script principal com toda a implementação
+- `regressao_iris.py`: Exercício 1 - Regressão com dataset Iris
+- `regressao_diabetes.py`: Exercício 2 - Regressão com dataset Diabetes
 - `requirements.txt`: Dependências do projeto
 - `README.md`: Este arquivo de documentação
 
 ## Saídas Geradas
 
-O script irá gerar os seguintes arquivos de gráficos:
+### Exercício 1 (Iris):
 - `regressao_simples_previsto_vs_real.png`
 - `regressao_simples_residuos.png`
 - `regressao_multipla_previsto_vs_real.png`
 - `regressao_multipla_residuos.png`
 - `coeficientes_regressao_multipla.png`
 
+### Exercício 2 (Diabetes):
+- `diabetes_regressao_simples_previsto_vs_real.png`
+- `diabetes_regressao_simples_residuos.png`
+- `diabetes_regressao_multipla_previsto_vs_real.png`
+- `diabetes_regressao_multipla_residuos.png`
+- `diabetes_coeficientes_regressao_multipla.png`
+
 ## Análise dos Resultados
 
-O script irá mostrar:
+Cada exercício irá mostrar:
 1. Métricas de performance para ambos os modelos
 2. Comparação entre regressão simples e múltipla
 3. Análise dos coeficientes
 4. Experimentação com dados padronizados
-
-## Variáveis Utilizadas
-
-- **Variável alvo**: `petal length (cm)`
-- **Regressão Simples**: `sepal length (cm)`
-- **Regressão Múltipla**: `sepal length (cm)`, `sepal width (cm)`, `petal width (cm)`
+5. Informações específicas sobre cada dataset
 
 ## Divisão dos Dados
 
 - 75% para treino
 - 25% para teste
 - Random state: 42 (para reprodutibilidade)
+
+## Tags do Git
+
+- `v1.0.0`: Versão inicial com Exercício 1 (Iris)
+- `licao-1`: Tag para Lição 1 - Regressão Linear com Iris
+- `v2.0.0`: Versão com Exercício 2 (Diabetes)
+- `licao-2`: Tag para Lição 2 - Regressão Linear com Diabetes
+
+## Informações sobre os Datasets
+
+### Dataset Iris
+- 150 amostras de flores Iris
+- 4 variáveis contínuas (sepal length, sepal width, petal length, petal width)
+- Dataset clássico para machine learning
+
+### Dataset Diabetes
+- 442 pacientes com diabetes
+- Variável alvo: medida quantitativa da progressão da doença
+- Features: bmi, age, sex, entre outras variáveis médicas
+- Dataset comumente usado para demonstrar técnicas de regressão linear
