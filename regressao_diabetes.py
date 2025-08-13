@@ -81,7 +81,7 @@ plt.ylabel('Valores Previstos')
 plt.title('Regressão Linear Simples: Previsto vs Real (Diabetes)')
 plt.grid(True, alpha=0.3)
 plt.tight_layout()
-plt.savefig('diabetes_regressao_simples_previsto_vs_real.png', dpi=300, bbox_inches='tight')
+plt.savefig('images/diabetes_regressao_simples_previsto_vs_real.png', dpi=300, bbox_inches='tight')
 plt.show()
 
 # Gráfico 2: Resíduos vs Previsto - Regressão Simples
@@ -94,7 +94,7 @@ plt.ylabel('Resíduos')
 plt.title('Regressão Linear Simples: Resíduos vs Previsto (Diabetes)')
 plt.grid(True, alpha=0.3)
 plt.tight_layout()
-plt.savefig('diabetes_regressao_simples_residuos.png', dpi=300, bbox_inches='tight')
+plt.savefig('images/diabetes_regressao_simples_residuos.png', dpi=300, bbox_inches='tight')
 plt.show()
 
 # Gráfico 3: Previsto vs Real - Regressão Múltipla
@@ -106,7 +106,7 @@ plt.ylabel('Valores Previstos')
 plt.title('Regressão Múltipla: Previsto vs Real (Diabetes)')
 plt.grid(True, alpha=0.3)
 plt.tight_layout()
-plt.savefig('diabetes_regressao_multipla_previsto_vs_real.png', dpi=300, bbox_inches='tight')
+plt.savefig('images/diabetes_regressao_multipla_previsto_vs_real.png', dpi=300, bbox_inches='tight')
 plt.show()
 
 # Gráfico 4: Resíduos vs Previsto - Regressão Múltipla
@@ -119,7 +119,7 @@ plt.ylabel('Resíduos')
 plt.title('Regressão Múltipla: Resíduos vs Previsto (Diabetes)')
 plt.grid(True, alpha=0.3)
 plt.tight_layout()
-plt.savefig('diabetes_regressao_multipla_residuos.png', dpi=300, bbox_inches='tight')
+plt.savefig('images/diabetes_regressao_multipla_residuos.png', dpi=300, bbox_inches='tight')
 plt.show()
 
 # Gráfico 5: Coeficientes da Regressão Múltipla
@@ -133,7 +133,7 @@ plt.title('Coeficientes da Regressão Múltipla (Diabetes)')
 plt.xticks(rotation=45)
 plt.grid(True, alpha=0.3)
 plt.tight_layout()
-plt.savefig('diabetes_coeficientes_regressao_multipla.png', dpi=300, bbox_inches='tight')
+plt.savefig('images/diabetes_coeficientes_regressao_multipla.png', dpi=300, bbox_inches='tight')
 plt.show()
 
 # 9. Comparação das métricas

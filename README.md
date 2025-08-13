@@ -51,22 +51,24 @@ python regressao_diabetes.py
 - `regressao_diabetes.py`: Exercício 2 - Regressão com dataset Diabetes
 - `requirements.txt`: Dependências do projeto
 - `README.md`: Este arquivo de documentação
+- `images/`: Pasta contendo os gráficos gerados pelos scripts
+- `.gitignore`: Configuração para ignorar arquivos desnecessários no Git
 
 ## Saídas Geradas
 
 ### Exercício 1 (Iris):
-- `regressao_simples_previsto_vs_real.png`
-- `regressao_simples_residuos.png`
-- `regressao_multipla_previsto_vs_real.png`
-- `regressao_multipla_residuos.png`
-- `coeficientes_regressao_multipla.png`
+- `images/regressao_simples_previsto_vs_real.png`
+- `images/regressao_simples_residuos.png`
+- `images/regressao_multipla_previsto_vs_real.png`
+- `images/regressao_multipla_residuos.png`
+- `images/coeficientes_regressao_multipla.png`
 
 ### Exercício 2 (Diabetes):
-- `diabetes_regressao_simples_previsto_vs_real.png`
-- `diabetes_regressao_simples_residuos.png`
-- `diabetes_regressao_multipla_previsto_vs_real.png`
-- `diabetes_regressao_multipla_residuos.png`
-- `diabetes_coeficientes_regressao_multipla.png`
+- `images/diabetes_regressao_simples_previsto_vs_real.png`
+- `images/diabetes_regressao_simples_residuos.png`
+- `images/diabetes_regressao_multipla_previsto_vs_real.png`
+- `images/diabetes_regressao_multipla_residuos.png`
+- `images/diabetes_coeficientes_regressao_multipla.png`
 
 ## Análise dos Resultados
 
